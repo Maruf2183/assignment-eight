@@ -1,11 +1,21 @@
 .App {
+  color: #ffff;
+  width: 1300px;
+  background-color:#2ECC40;
+  background-image: url(./Images/vibe.jpg);
+  height: 1000px;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size:contain;
+  /* background-attachment: fixed; */
   text-align: center;
+  margin: auto;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

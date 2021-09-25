@@ -1,0 +1,16 @@
+.single-card{
+    text-align: left;
+    padding: 20px;
+    background-color: rgba(106, 142, 35, 0.301);
+    border-radius: 10px;
+    border: 2px solid gray;
+    transition: 1s;
+   
+    
+}
+.single-card:hover{
+    background-color:rgba(93, 129, 21, 0.329);
+    transform: scale(1.03);
+    transition: .5s;
+  
+}
