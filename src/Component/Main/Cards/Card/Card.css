@@ -3,7 +3,7 @@
     padding: 20px;
     background-color: rgba(106, 142, 35, 0.301);
     border-radius: 10px;
-    border: 2px solid gray;
+    /* border: 2px solid gray; */
     transition: 1s;
    
     
@@ -31,5 +31,5 @@ button{
 }
 button:hover{
     transition:.3s;
-    transform: scale(1.05);
+    transform: scale(1.0);
 }
