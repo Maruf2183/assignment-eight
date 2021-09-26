@@ -6,26 +6,30 @@ import Cost from './Cost/Cost';
 
 const Main = () => {
 
-    const [count, setCount] = useState(0)
-    const increase = () => {
-        const updatedAmount = count + 1;
-        setCount(updatedAmount)
-    }
-    const [Developer, setDeveloper] = useState([]);
+    const [developer, setDeveloper] = useState([]);
     useEffect(() => {
         fetch('./developer.json')
             .then(res => res.json())
-            .then( data=> setDeveloper(data))
-        
+            .then(data => setDeveloper(data))
+
     }, [])
-    
-    console.log(Developer);
+
+    const [cart,setCart]=useState([])
 
 
+    const handleAdToCart = (product) => {
+        console.log(product.namme);
+        
+        const newCart = [...cart, product]
+        setCart(newCart)
+
+        console.log(developer);
+
+    }
     return (
         <main className='body'>
-            <Cards increase={increase} developerData={Developer} />
-            <Cost count={count} />
+            <Cards handleAdToCart={handleAdToCart} developerData={developer} />
+            <Cost cart={cart} />
         </main>
 
 

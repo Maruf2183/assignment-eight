@@ -19,3 +19,17 @@ img{
     height: 200px;
     border-radius: 5px;
 }
+button{
+    border:none;
+    border-radius: 5px;
+    font-size:18px;
+    color: #ddd;
+    padding:10px 50px;
+    background-color: rgba(59, 92, 25, 0.623);
+    cursor: pointer;
+    transition:1s;
+}
+button:hover{
+    transition:.3s;
+    transform: scale(1.05);
+}

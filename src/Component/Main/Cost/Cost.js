@@ -3,14 +3,22 @@ import React from 'react';
 
 
 const Cost = (props) => {
-/* 
-    const [cost, setCost] = useState(0)
-    const newCost = cost + props.cost;
-        setCost(newCost) */
-    return (
+    const carts = props.cart;
+    let total = 0;
+    let devolopers = '';
+    for (const cart of carts) {
+        total = total + cart.salary;
+        devolopers = devolopers + cart.namme;
+    }
+    
+
+
+        return(
         <div className='cost'> 
-            <h5>Totat Developers:- {props.count}</h5>
-            <p>Total cost 50 $</p>
+            <h5>Totat Developers:- {carts.length}</h5>
+                <p>Total cost :-{total}$</p><br />
+
+                <h2>Developers:-{devolopers}</h2>
         </div>
     );
 };

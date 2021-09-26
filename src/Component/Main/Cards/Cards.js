@@ -3,7 +3,7 @@ import React from 'react';
 import Card from './Card/Card';
 
 const Cards = (props) => {
-     const increase=props.increase
+    const handleAdToCart = props.handleAdToCart;
     const developerData = props.developerData;
     
     
@@ -11,8 +11,15 @@ const Cards = (props) => {
         <div className='cards'>
             {
                 developerData.map(developer => {
-                    console.log(developer);
-                    return <Card increase={increase} developer={developer}/>
+                    return <Card
+                        
+                        key={developer.id}
+                        developer={developer}
+                        handleAdToCart={handleAdToCart}
+                    >
+                    
+                </Card>
+                 
                 })
           }
 
