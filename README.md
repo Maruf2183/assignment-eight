@@ -1,7 +1,7 @@
 Hiring Engeneers
 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+For livestream [Go to live site](https://sleepy-curie-c0418e.netlify.app/).
 
 ## Availabe Convenience
 
