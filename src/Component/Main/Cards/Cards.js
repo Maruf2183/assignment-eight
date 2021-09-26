@@ -2,15 +2,22 @@ import './Cards.css'
 import React from 'react';
 import Card from './Card/Card';
 
-const Cards = () => {
+const Cards = (props) => {
+     const increase=props.increase
+    const developerData = props.developerData;
+    
+    
     return (
         <div className='cards'>
-         <Card/>
-         <Card/>
-         <Card/>
-         <Card/>
-         <Card/>
-         <Card/>
+            {
+                developerData.map(developer => {
+                    console.log(developer);
+                    return <Card increase={increase} developer={developer}/>
+                })
+          }
+
+        
+
             
         </div>
     );

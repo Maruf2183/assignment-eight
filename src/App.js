@@ -7,7 +7,8 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Main/>
+      <Main />
+
 
 
     </div>
@@ -15,3 +16,6 @@ function App() {
 }
 
 export default App;
+
+
+
