@@ -12,3 +12,11 @@
 .cost p{
     margin: 0px;
 }
+.h2{
+    color: #dddd;
+    margin: 5px;
+    
+    padding: 10px;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+}

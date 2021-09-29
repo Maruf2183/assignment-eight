@@ -31,5 +31,6 @@ button{
 }
 button:hover{
     transition:.3s;
-    transform: scale(1.0);
+    transform: scale(1.05);
+    background-color: rgba(1, 12, 11, 0.77);
 }
