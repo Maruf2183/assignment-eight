@@ -1,7 +1,7 @@
 Hiring Engeneers
 
 
-For livestream [Go to live site](https://sleepy-curie-c0418e.netlify.app/).
+For livestream [Go to live site](https://bucolic-toffee-9b7f08.netlify.app/).
 
 ## Availabe Convenience
 
